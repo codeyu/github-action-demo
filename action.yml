@@ -1,0 +1,16 @@
+name:'Awesome action'
+description:'An action that does awesome things.'
+author:'codeyu'
+inputs:
+  parameter-name:
+    description:'An input parameter.'
+outputs:
+  out-value-name:
+    description:'A value returned by action.'
+runs:
+  using:'node12'
+  main:'lib/main.js'
+branding:
+  icon:'power'
+  color:'yellow'
+    
