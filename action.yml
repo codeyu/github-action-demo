@@ -1,16 +1,9 @@
-name:'Awesome action'
-description:'An action that does awesome things.'
-author:'codeyu'
-inputs:
-  parameter-name:
-    description:'An input parameter.'
-outputs:
-  out-value-name:
-    description:'A value returned by action.'
+name: 'Github action demo'
+description: 'learn github action'
+author: 'codeyu'
+putputs:
+  release-url:
+    description: 'The URL'
 runs:
-  using:'node12'
-  main:'lib/main.js'
-branding:
-  icon:'power'
-  color:'yellow'
-    
+  using: 'node12'
+  main: 'dist/index.js'
